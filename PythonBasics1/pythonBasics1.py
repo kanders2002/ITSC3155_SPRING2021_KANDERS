@@ -28,6 +28,7 @@ def is_power_of(i, j):
   for x in range(0, 1000, 1):
     if (i ** x) == j: return True;
     if (i ** x) > j and i > 0: return False;
+    
   return False
 
 # Part C. longest_word
